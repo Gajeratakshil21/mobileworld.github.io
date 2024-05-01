@@ -1,0 +1,68 @@
+ button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 0px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+    table {  
+        border-collapse: collapse;  
+    
+    }
+    table td{
+        padding:10px 5px 10px 5px;
+    }
+    table ul{
+        list-style:none;
+    }
+    .leftDiv
+    {
+        float:left;
+        /*height:880px;*/
+        width:20%;
+    }
+    .rightDiv
+    {
+        float:right;
+        width:80%;
+        
+    }
+    .inline
+    {   
+        display: inline-block;   
+        float: right; 
+        margin:20px 0px;  
+    }   
+         
+    input, button
+    {   
+        height: 34px;   
+    }   
+  
+   .pagination {   
+        display: inline-block;   
+        float:none;
+        
+    }   
+    .pagination a {   
+        font-weight:bold;   
+        font-size:18px;   
+        color: black;   
+        float: left;   
+        padding: 8px 16px;   
+        text-decoration: none;   
+        border:1px solid black;   
+    }   
+    .pagination a.active {   
+            background-color: rgb(164, 164, 228);;   
+    }   
+    .pagination a:hover:not(.active) {   
+        background-color: #11ffff;   
+    }   
+   
